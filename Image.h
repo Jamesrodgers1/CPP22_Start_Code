@@ -16,7 +16,11 @@ struct Rgb
 {
     Rgb() : r(1), g(1), b(1)  {}
     Rgb(unsigned char rr) : r(rr), g(rr), b(rr) {}
+<<<<<<< HEAD
     Rgb(unsigned char rr, unsigned char gg, unsigned char bb) : r(rr), g(gg), b(bb) {}
+=======
+    Rgb(unsigned char rr, unsigned char gg,unsigned char bb) : r(rr), g(gg), b(bb) {}
+>>>>>>> 171972b827ba9c7f2329bbe2ac8217845fef2b23
     unsigned char r, g, b;
 };
 
